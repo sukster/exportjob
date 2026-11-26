@@ -1,4 +1,4 @@
-# Set variables. Assumes that the workspace and storage account are in the same resource group.
+# Set variables.
 $workspaceSubscriptionId = Read-Host "Enter Sentinel workspace subscription ID"
 $workspaceResourceGroupName = Read-Host "Enter Sentinel workspace resource group name"
 $workspaceName = Read-Host "Enter Sentinel workspace name"
